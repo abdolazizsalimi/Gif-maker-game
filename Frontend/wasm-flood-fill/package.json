@@ -1,0 +1,23 @@
+{
+  "name": "wasm-flood-fill",
+  "collaborators": [
+    "Florian Knop",
+    "Amin Jafari"
+  ],
+  "description": "Implementation of a flood-fill canvas algorithm in Rust for WebAssembly",
+  "version": "2.1.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fknop/wasm-flood-fill"
+  },
+  "files": [
+    "wasm_flood_fill_bg.wasm",
+    "wasm_flood_fill.js",
+    "wasm_flood_fill_bg.js",
+    "wasm_flood_fill.d.ts"
+  ],
+  "module": "wasm_flood_fill.js",
+  "types": "wasm_flood_fill.d.ts",
+  "sideEffects": false
+}
